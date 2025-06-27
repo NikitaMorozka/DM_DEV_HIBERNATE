@@ -1,0 +1,35 @@
+2025-06-28 03:18:33,496 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 started in PT0.324762S
+2025-06-28 03:18:33,498 [Test worker] INFO  org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-28 03:18:33,498 [Test worker] INFO  org.testcontainers.DockerClientFactory - Checking the system...
+2025-06-28 03:18:33,498 [Test worker] INFO  org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-06-28 03:18:33,499 [Test worker] INFO  tc.postgres:13 - Creating container for image: postgres:13
+2025-06-28 03:18:33,526 [Test worker] INFO  tc.postgres:13 - Container postgres:13 is starting: 778c9ab9009157af3d42fd55d41d4319081907de85b723e0783753a38cfb266d
+2025-06-28 03:18:34,192 [Test worker] INFO  tc.postgres:13 - Container postgres:13 started in PT0.693886S
+2025-06-28 03:18:34,193 [Test worker] INFO  tc.postgres:13 - Container is started (JDBC URL: jdbc:postgresql://localhost:58437/test?loggerLevel=OFF)
+2025-06-28 03:18:34,244 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2025-06-28 03:18:34,245 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-06-28 03:18:34,365 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-06-28 03:18:34,367 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-06-28 03:18:34,367 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:58437/test?loggerLevel=OFF]
+2025-06-28 03:18:34,368 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=test}
+2025-06-28 03:18:34,368 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-06-28 03:18:34,368 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-06-28 03:18:34,419 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000026: PostgreSQL10Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2025-06-28 03:18:34,558 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-06-28 03:18:34,842 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-06-28 03:18:34,848 [Test worker] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@338270ea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-28 03:18:34,850 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,850 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "users" does not exist, skipping
+2025-06-28 03:18:34,851 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,851 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "users" does not exist, skipping
+2025-06-28 03:18:34,852 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,852 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "company_locale" does not exist, skipping
+2025-06-28 03:18:34,853 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,853 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "profile" does not exist, skipping
+2025-06-28 03:18:34,853 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,853 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "users_chat" does not exist, skipping
+2025-06-28 03:18:34,854 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,854 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "users_chat" does not exist, skipping
+2025-06-28 03:18:34,854 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,854 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "chat" does not exist, skipping
+2025-06-28 03:18:34,855 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000

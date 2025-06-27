@@ -1,0 +1,34 @@
+2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-06-28 01:34:54,671 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-06-28 01:34:54,947 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-06-28 01:34:54,981 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2025-06-28 01:35:09,739 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2025-06-28 01:35:09,740 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-06-28 01:35:09,836 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-06-28 01:35:09,838 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-06-28 01:35:10,060 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-06-28 01:35:10,340 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-06-28 01:35:10,381 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2025-06-28 01:36:19,901 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2025-06-28 01:36:19,903 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-06-28 01:36:20,017 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-06-28 01:36:20,019 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-06-28 01:36:20,019 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+2025-06-28 01:36:20,020 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-06-28 01:36:20,020 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-06-28 01:36:20,020 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-06-28 01:36:20,242 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-06-28 01:36:20,493 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-06-28 01:36:20,538 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2025-06-28 01:38:09,855 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
+2025-06-28 01:38:09,858 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-06-28 01:38:09,962 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-06-28 01:38:09,964 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-06-28 01:38:09,964 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]

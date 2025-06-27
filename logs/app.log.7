@@ -1,0 +1,36 @@
+2025-06-28 02:39:13,102 [Test worker] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@71e7830a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-28 02:39:13,130 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:nikita]
+2025-06-28 03:16:42,579 [Test worker] INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-06-28 03:16:42,581 [Test worker] INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-06-28 03:16:42,584 [Test worker] INFO  org.testcontainers.DockerClientFactory - Testcontainers version: 1.21.2
+2025-06-28 03:16:42,737 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2025-06-28 03:16:42,744 [Test worker] INFO  org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-06-28 03:16:42,757 [Test worker] INFO  org.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.1.1
+  API Version: 1.49
+  Operating System: Docker Desktop
+  Total Memory: 7837 MB
+  Labels: 
+    com.docker.desktop.address=unix:///Users/a---/Library/Containers/com.docker.docker/Data/docker-cli.sock
+2025-06-28 03:16:42,828 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling docker image: testcontainers/ryuk:0.12.0. Please be patient; this may take some time but only needs to be done once.
+2025-06-28 03:16:44,743 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Starting to pull image
+2025-06-28 03:16:44,764 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-06-28 03:16:46,634 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (3 MB/? MB)
+2025-06-28 03:16:46,834 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (4 MB/? MB)
+2025-06-28 03:16:47,234 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (6 MB/10 MB)
+2025-06-28 03:16:47,291 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (6 MB/10 MB)
+2025-06-28 03:16:47,291 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (6 MB/10 MB)
+2025-06-28 03:16:47,292 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (6 MB/10 MB)
+2025-06-28 03:16:47,292 [docker-java-stream--372223259] INFO  tc.testcontainers/ryuk:0.12.0 - Pull complete. 3 layers, pulled in 2s (downloaded 6 MB at 3 MB/s)
+2025-06-28 03:16:47,292 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Image testcontainers/ryuk:0.12.0 pull took PT4.464535S
+2025-06-28 03:16:47,340 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Creating container for image: testcontainers/ryuk:0.12.0
+2025-06-28 03:16:47,436 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 is starting: cae2e0d46cfae517b620f351ce8eb5d04f00b881e66bab6fedd7f71b694da706
+2025-06-28 03:16:47,604 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 started in PT0.26415S
+2025-06-28 03:16:47,608 [Test worker] INFO  org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-28 03:16:47,608 [Test worker] INFO  org.testcontainers.DockerClientFactory - Checking the system...
+2025-06-28 03:16:47,608 [Test worker] INFO  org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-06-28 03:16:47,610 [Test worker] INFO  tc.postgres:13 - Pulling docker image: postgres:13. Please be patient; this may take some time but only needs to be done once.
+2025-06-28 03:16:48,911 [docker-java-stream-1604834679] INFO  tc.postgres:13 - Starting to pull image
+2025-06-28 03:16:48,913 [docker-java-stream-1604834679] INFO  tc.postgres:13 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-06-28 03:16:49,720 [docker-java-stream-1604834679] INFO  tc.postgres:13 - Pulling image layers: 13 pending,  1 downloaded,  0 extracted, (0 bytes/? MB)
+2025-06-28 03:16:49,921 [docker-java-stream-1604834679] INFO  tc.postgres:13 - Pulling image layers: 12 pending,  2 downloaded,  0 extracted, (0 bytes/? MB)

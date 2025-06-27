@@ -1,0 +1,9 @@
+2025-06-28 03:18:34,856 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "company" does not exist, skipping
+2025-06-28 03:18:34,856 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,856 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "company_locale" does not exist, skipping
+2025-06-28 03:18:34,857 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,857 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "profile" does not exist, skipping
+2025-06-28 03:18:34,857 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-06-28 03:18:34,858 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "users_chat" does not exist, skipping
+2025-06-28 03:18:34,861 [Test worker] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37753b69] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-06-28 03:18:34,905 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:58437/test?loggerLevel=OFF]
