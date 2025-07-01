@@ -1,34 +1,38 @@
-2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
-2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
-2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
-2025-06-28 01:34:54,451 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
-2025-06-28 01:34:54,671 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
-2025-06-28 01:34:54,947 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-06-28 01:34:54,981 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
-2025-06-28 01:35:09,739 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
-2025-06-28 01:35:09,740 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
-2025-06-28 01:35:09,836 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
-2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
-2025-06-28 01:35:09,837 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
-2025-06-28 01:35:09,838 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
-2025-06-28 01:35:10,060 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
-2025-06-28 01:35:10,340 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-06-28 01:35:10,381 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
-2025-06-28 01:36:19,901 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
-2025-06-28 01:36:19,903 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
-2025-06-28 01:36:20,017 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-06-28 01:36:20,019 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-2025-06-28 01:36:20,019 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
-2025-06-28 01:36:20,020 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
-2025-06-28 01:36:20,020 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
-2025-06-28 01:36:20,020 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
-2025-06-28 01:36:20,242 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
-2025-06-28 01:36:20,493 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-06-28 01:36:20,538 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
-2025-06-28 01:38:09,855 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
-2025-06-28 01:38:09,858 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
-2025-06-28 01:38:09,962 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-06-28 01:38:09,964 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-2025-06-28 01:38:09,964 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+2025-07-02 00:48:49,882 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "profile" does not exist, skipping
+2025-07-02 00:48:49,883 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,883 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "users_chat" does not exist, skipping
+2025-07-02 00:48:49,883 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,883 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "users_chat" does not exist, skipping
+2025-07-02 00:48:49,884 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,884 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "chat" does not exist, skipping
+2025-07-02 00:48:49,884 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,884 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "company" does not exist, skipping
+2025-07-02 00:48:49,885 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,885 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "company_locale" does not exist, skipping
+2025-07-02 00:48:49,885 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,885 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "payment" does not exist, skipping
+2025-07-02 00:48:49,886 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,886 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "profile" does not exist, skipping
+2025-07-02 00:48:49,886 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 00:48:49,886 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "users_chat" does not exist, skipping
+2025-07-02 00:48:49,890 [Test worker] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72288480] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-07-02 00:48:49,991 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:59620/test?loggerLevel=OFF]
+2025-07-02 00:51:54,159 [Test worker] INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-07-02 00:51:54,161 [Test worker] INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-07-02 00:51:54,164 [Test worker] INFO  org.testcontainers.DockerClientFactory - Testcontainers version: 1.21.2
+2025-07-02 00:51:54,231 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-07-02 00:51:54,338 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2025-07-02 00:51:54,339 [Test worker] INFO  org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-07-02 00:51:54,355 [Test worker] INFO  org.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.1.1
+  API Version: 1.49
+  Operating System: Docker Desktop
+  Total Memory: 7837 MB
+  Labels: 
+    com.docker.desktop.address=unix:///Users/a---/Library/Containers/com.docker.docker/Data/docker-cli.sock
+2025-07-02 00:51:54,422 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Creating container for image: testcontainers/ryuk:0.12.0
+2025-07-02 00:51:54,611 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 is starting: 88deed2b8204c639207b1aea3c98f4318a27a609a2e02507f28bc6b5ed419263
+2025-07-02 00:51:54,776 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 started in PT0.353346S
+2025-07-02 00:51:54,778 [Test worker] INFO  org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-07-02 00:51:54,778 [Test worker] INFO  org.testcontainers.DockerClientFactory - Checking the system...
+2025-07-02 00:51:54,779 [Test worker] INFO  org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0

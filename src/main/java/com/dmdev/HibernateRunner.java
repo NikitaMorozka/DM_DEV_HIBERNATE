@@ -30,7 +30,7 @@ public class HibernateRunner {
                 .personalInfo(PersonalInfo.builder()
                         .firstname("Niiiikita")
                         .lastname("Moorozov")
-                        .birthDate(new Birthday(LocalDate.now()))
+                        .birthDate(LocalDate.now())
                         .build())
                 .company(company)
                 .role(Role.USER)

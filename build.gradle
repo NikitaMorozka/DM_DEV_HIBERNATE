@@ -15,6 +15,10 @@ java{
 }
 
 dependencies {
+//    implementation 'javax.persistence:javax.persistence-api:2.2'
+
+
+
     implementation("org.projectlombok:lombok:1.18.38")
     annotationProcessor("org.projectlombok:lombok:1.18.38")
     implementation("org.hibernate:hibernate-core:6.2.7.Final")
@@ -24,10 +28,14 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.15.2")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.15.2")
 
+
+    annotationProcessor 'org.hibernate:hibernate-jpamodelgen:6.2.7.Final'
+
     implementation("com.vladmihalcea:hibernate-types-60:2.21.1")
     implementation("org.slf4j:slf4j-log4j12:2.0.17")
 
 //    testImplementation("com.h2database:h2:2.3.232")
+    testImplementation 'org.assertj:assertj-core:3.24.2'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testCompileOnly("org.projectlombok:lombok:1.18.38")
@@ -38,3 +46,4 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+

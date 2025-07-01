@@ -25,7 +25,7 @@ public class Company {
     @OneToMany(mappedBy = "company", cascade = CascadeType.ALL, orphanRemoval = true)
 //    @OrderBy("username ASC, personalInfo.lastname ASC")
     @MapKey(name = "username")
-    @SortNatural
+//    @SortNatural
     private Map<String, User> users = new HashMap<>();
 
 

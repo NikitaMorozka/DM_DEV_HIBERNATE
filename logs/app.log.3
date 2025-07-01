@@ -1,38 +1,38 @@
-2025-06-28 03:17:46,022 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000026: PostgreSQL10Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
-2025-06-28 03:17:46,180 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
-2025-06-28 03:17:46,453 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-06-28 03:17:50,583 [Test worker] INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
-2025-06-28 03:17:50,584 [Test worker] INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
-2025-06-28 03:17:50,587 [Test worker] INFO  org.testcontainers.DockerClientFactory - Testcontainers version: 1.21.2
-2025-06-28 03:17:50,642 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
-2025-06-28 03:17:50,737 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
-2025-06-28 03:17:50,738 [Test worker] INFO  org.testcontainers.DockerClientFactory - Docker host IP address is localhost
-2025-06-28 03:17:50,754 [Test worker] INFO  org.testcontainers.DockerClientFactory - Connected to docker: 
+2025-07-02 01:21:31,084 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 01:21:31,084 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - relation "users_chat" does not exist, skipping
+2025-07-02 01:21:31,085 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 01:21:31,085 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "chat" does not exist, skipping
+2025-07-02 01:21:31,086 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 01:21:31,086 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "company" does not exist, skipping
+2025-07-02 01:21:31,086 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 01:21:31,086 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "company_locale" does not exist, skipping
+2025-07-02 01:21:31,087 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 01:21:31,087 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "payment" does not exist, skipping
+2025-07-02 01:21:31,087 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 01:21:31,087 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "profile" does not exist, skipping
+2025-07-02 01:21:31,088 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-07-02 01:21:31,088 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table "users_chat" does not exist, skipping
+2025-07-02 01:21:31,092 [Test worker] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6abb44cb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-07-02 01:21:31,417 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:63541/test?loggerLevel=OFF]
+2025-07-02 01:32:33,725 [Test worker] INFO  org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-07-02 01:32:33,727 [Test worker] INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-07-02 01:32:33,731 [Test worker] INFO  org.testcontainers.DockerClientFactory - Testcontainers version: 1.21.2
+2025-07-02 01:32:33,797 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-07-02 01:32:33,904 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2025-07-02 01:32:33,904 [Test worker] INFO  org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-07-02 01:32:33,918 [Test worker] INFO  org.testcontainers.DockerClientFactory - Connected to docker: 
   Server Version: 28.1.1
   API Version: 1.49
   Operating System: Docker Desktop
   Total Memory: 7837 MB
   Labels: 
     com.docker.desktop.address=unix:///Users/a---/Library/Containers/com.docker.docker/Data/docker-cli.sock
-2025-06-28 03:17:50,815 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Creating container for image: testcontainers/ryuk:0.12.0
-2025-06-28 03:17:51,003 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 is starting: b70084a026d367049ce3a08fad149fd5ab6caf7cbfd113f16d28dff53d3a6716
-2025-06-28 03:17:51,123 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 started in PT0.307667S
-2025-06-28 03:17:51,125 [Test worker] INFO  org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
-2025-06-28 03:17:51,125 [Test worker] INFO  org.testcontainers.DockerClientFactory - Checking the system...
-2025-06-28 03:17:51,126 [Test worker] INFO  org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
-2025-06-28 03:17:51,126 [Test worker] INFO  tc.postgres:13 - Creating container for image: postgres:13
-2025-06-28 03:17:51,160 [Test worker] INFO  tc.postgres:13 - Container postgres:13 is starting: 2d6f3e5cd72c191034f92f844c83c4cf44df0e90678d133403ece3de21ced049
-2025-06-28 03:17:51,794 [Test worker] INFO  tc.postgres:13 - Container postgres:13 started in PT0.667913S
-2025-06-28 03:17:51,795 [Test worker] INFO  tc.postgres:13 - Container is started (JDBC URL: jdbc:postgresql://localhost:58406/test?loggerLevel=OFF)
-2025-06-28 03:17:51,842 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.7.Final
-2025-06-28 03:17:51,844 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
-2025-06-28 03:17:51,954 [Test worker] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-06-28 03:17:51,956 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-2025-06-28 03:17:51,956 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:58406/test?loggerLevel=OFF]
-2025-06-28 03:17:51,956 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=test}
-2025-06-28 03:17:51,956 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
-2025-06-28 03:17:51,957 [Test worker] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
-2025-06-28 03:17:52,003 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000026: PostgreSQL10Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
-2025-06-28 03:17:52,144 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
-2025-06-28 03:17:52,408 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-06-28 03:17:52,412 [Test worker] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7f64bd7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-07-02 01:32:33,976 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Creating container for image: testcontainers/ryuk:0.12.0
+2025-07-02 01:32:34,171 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 is starting: 089970c0c248d8817dc22ceddb2fda58a5e9e19f0df5854628b3aa8e9a4a349f
+2025-07-02 01:32:34,353 [Test worker] INFO  tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 started in PT0.377717S
+2025-07-02 01:32:34,356 [Test worker] INFO  org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-07-02 01:32:34,356 [Test worker] INFO  org.testcontainers.DockerClientFactory - Checking the system...
+2025-07-02 01:32:34,356 [Test worker] INFO  org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-07-02 01:32:34,357 [Test worker] INFO  tc.postgres:13 - Creating container for image: postgres:13
+2025-07-02 01:32:34,394 [Test worker] INFO  tc.postgres:13 - Container postgres:13 is starting: c9941be54f1a5845f93fe6a8f020a881c9fa9731765b2577891c9c218df08ae3
+2025-07-02 01:32:35,058 [Test worker] INFO  tc.postgres:13 - Container postgres:13 started in PT0.7013S

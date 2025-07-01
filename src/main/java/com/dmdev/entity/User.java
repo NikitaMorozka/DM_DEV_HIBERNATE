@@ -49,5 +49,11 @@ public class  User {
     @OneToMany(mappedBy = "user")
     private List<UsersChat> usersChats = new ArrayList<>();
 
+    public String fullName() {
+        return getPersonalInfo().getFirstname() + " " + getPersonalInfo().getLastname();
+    }
 
+    @Builder.Default
+    @OneToMany(mappedBy = "receiver")
+    private List<Payment> payments = new ArrayList<>();
 }
